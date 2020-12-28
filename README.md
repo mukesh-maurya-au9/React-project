@@ -10,4 +10,6 @@ Lodash
 Redux for State Management
 Redux Middleware
 React Navigation
+Firebase
+Material-UI 
 and More ...
