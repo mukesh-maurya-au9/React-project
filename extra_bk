@@ -1,0 +1,3 @@
+npx crate-react-app twitter-clone
+
+npm i -S react-redux redux redux-logger react-router-dom
