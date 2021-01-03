@@ -29,6 +29,19 @@ Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
+### `Technologies`
+
+[React JS]
+Json-server
+JWT
+Lodash
+Redux for State Management
+Redux Middleware
+React Navigation
+Firebase
+Material-UI 
+and More ...
+
 ### `installed packages`
 
 This project have installed following package:
@@ -38,6 +51,7 @@ run `npm i -S` and fallowed by below packages
 [react-router-dom]
 [redux-promise]
 [react-icons] .. and many more
+
 
 ### `run application`
 
