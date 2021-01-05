@@ -1,8 +1,16 @@
+import {Provider} from 'react-redux';
+import {BrowserRouter, Switch, Route} from 'react-router-dom';
+// import Store from './Redux/store/Store';
+import Home from './pages/Home';
 const Routing = () => {
     return (
-        <div>
-            <h1>Hello Twitter working on dev branch</h1>
-        </div>
+        <BrowserRouter>
+            {/* <Provider store={Store}> */}
+                <Switch>
+                    <Route exact path="/" component={Home}/>
+                </Switch>
+            {/* </Provider> */}
+        </BrowserRouter>
     )
 };
 export default Routing;
