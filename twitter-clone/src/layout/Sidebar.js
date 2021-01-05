@@ -18,48 +18,48 @@ const Sidebar = () => {
     <div className="sidebar">
       <ul className="ulSidebar">
         <li>
-          <Link>
+          <Link to="/">
             <FaTwitter className="twitterIcon" />
           </Link>
         </li>
         <li>
-          <Link className="ulSidebar">
+          <Link to ="/home" className="ulSidebar">
             <FaHome className="icon homeLogo" />
             Home
           </Link>
         </li>
         <li>
-          <Link className="ulSidebar">
+          <Link to ="/exporer" className="ulSidebar">
             <FaHashtag className="icon" />
             Explore
           </Link>
         </li>
         <li>
-          <Link className="ulSidebar">
+          <Link to="/notification" className="ulSidebar">
             <FaBell className="icon" />
             Notifications
           </Link>
         </li>
         <li>
-          <Link className="ulSidebar">
+          <Link to="/messages" className="ulSidebar">
             <FaRegEnvelope className="icon" />
             Messages
           </Link>
         </li>
         <li>
-          <Link className="ulSidebar">
+          <Link to="bookmarks" className="ulSidebar">
             <FaBookmark className="icon" />
             Bookmarks
           </Link>
         </li>
         <li>
-          <Link className="ulSidebar">
+          <Link to="list" className="ulSidebar">
             <FaClipboardList className="icon" />
             Lists
           </Link>
         </li>
         <li>
-          <Link className="ulSidebar">
+          <Link to="/profile" className="ulSidebar">
             <FaUserAlt className="icon" />
             Profile
           </Link>
@@ -71,7 +71,7 @@ const Sidebar = () => {
           </Link>
         </li>
         <div className="sidebarTweetBtn">
-            <Link className="sidebarTweet"> Tweet </Link>
+            <Link to="/compose/tweet"className="sidebarTweet"> Tweet </Link>
         </div>
       </ul>
     </div>
