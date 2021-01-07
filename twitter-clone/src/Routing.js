@@ -2,6 +2,8 @@ import {Provider} from 'react-redux';
 import {BrowserRouter, Switch, Route} from 'react-router-dom';
 // import Store from './Redux/store/Store';
 import Home from './pages/Home';
+
+
 const Routing = () => {
     return (
         <BrowserRouter>

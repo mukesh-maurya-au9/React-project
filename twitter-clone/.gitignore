@@ -23,5 +23,6 @@ yarn-debug.log*
 yarn-error.log*
 
 extra_bk
+/src/PlanB
 
 /home/mukesh/AttainU/React-project/Twitter-All-Brand-Resources

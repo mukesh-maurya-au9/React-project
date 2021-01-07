@@ -1,12 +1,15 @@
-import React, { Component } from 'react';
+import React, { Component, Fragment } from 'react';
 import Sidebar from '../layout/Sidebar';
+
 class Home extends Component {
     render() { 
-        return (
-            <div className="twitter">
-                <Sidebar/>
-            </div>
-        );
+        return ( 
+            <Fragment>
+                
+                <h2>This is home page</h2>
+            </Fragment>
+
+         );
     }
 }
  

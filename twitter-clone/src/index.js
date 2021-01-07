@@ -1,5 +1,5 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import TwitterClone from './Twitter';
+import Twitter from './Twitter';
 
-ReactDOM.render(<TwitterClone/>,document.getElementById('root'));
+ReactDOM.render(<Twitter/>,document.getElementById('root'));
